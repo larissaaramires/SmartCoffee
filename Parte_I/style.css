@@ -1,0 +1,36 @@
+:root {
+    --AzulEscuro: rgb(0, 21, 39);
+    --Azul: rgb(0, 51, 95);
+    --Branco: #ffff;
+    --Dourado: #8d7637;
+    --Preto: rgb(0, 0, 0);
+}
+
+body {
+    background-color: var(--Preto);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: var(--Branco);
+}
+
+header {
+    padding: 20px 16px;
+    text-align: center;
+    background:
+        linear-gradient(
+            120deg,
+            var(--AzulEscuro),
+            var(--Azul),
+            var(--Preto)
+        );     
+}
+
+main {
+    margin: 20px;
+}
+
+h2,
+h3 {
+    color: var(--Azul);
+}
